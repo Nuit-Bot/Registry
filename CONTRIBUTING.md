@@ -2,8 +2,8 @@
 
 ## Prerequisites
 
-- Must be in a Github repo under an account or organization
-- Must use the [GNU Affero General Public License (AGPL)](https://www.gnu.org/licenses/agpl-3.0.en.html)
+- Must be in a Github repo under an account or organization AND published to npm
+- Must use the [GNU Affero General Public License (AGPL)](https://www.gnu.org/licenses/agpl-3.0.en.html) or none
 - Must have at least one commit
 - Must be available for free
 
@@ -13,10 +13,10 @@
 
 2. Use the [`template.json`](./template.json) to add your module's details to the file
 
-- The `id` field should be a unique text ID that can be used to identify the module
-- The `repo` field should contain the URL to the Github repo
-- The `commit` field should contain a commit hash from the primary branch of the repo. Commit must be stable
-- The `author` field should contain the author name (doesn't need to match repo creator)
+- The `name` field should be the npm package's name
+- The `commit` field should be the full SHASUM of the package provided by npm (go to `registry.npmjs.org/${packageName}`, look for versions.${version}.dist.shasum)
+- The `author` field should be the author name (doesn't need to match repo creator)
+- The `version` field should be the latest version. MAKE SURE THE COMMIT SHASUM IS THIS VERSION'S
 
 3. Wait for a review
 

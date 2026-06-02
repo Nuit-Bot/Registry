@@ -1,8 +1,8 @@
 [
     {
-        "id": "welcome",
-        "repo": "https://github.com/Nuit-Bot/module-welcome",
+        "id": "@nuit-bot/module-welcome",
         "author": "Nuit",
-        "commit": "a1b2c3"
+        "commit": "FULL_COMMIT_SHA",
+        "version": "0.0.1"
     }
 ]
