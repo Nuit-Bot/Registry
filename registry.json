@@ -1,1 +1,8 @@
-[]
+[
+    {
+        "name": "@nuit-bot/example",
+        "author": "Nuit",
+        "commit": "edf8b18c54207ffdd8797204908ac38bc5493af0",
+        "version": "0.0.2"
+    }
+]
