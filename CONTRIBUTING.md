@@ -14,7 +14,7 @@
 2. Use the [`template.json`](./template.json) to add your module's details to the file
 
 - The `name` field should be the npm package's name
-- The `commit` field should be the full SHASUM of the package provided by npm (go to `registry.npmjs.org/${packageName}`, look for versions.${version}.dist.shasum)
+- The `commit` field should be the full SHASUM from the Git head
 - The `author` field should be the author name (doesn't need to match repo creator)
 - The `version` field should be the latest version. MAKE SURE THE COMMIT SHASUM IS THIS VERSION'S
 
