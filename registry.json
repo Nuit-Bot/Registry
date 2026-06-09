@@ -1,8 +1,11 @@
 [
     {
-        "name": "@nuit-bot/example",
+        "package": "@nuit-bot/example",
+        "description": "Example module demonstrating Nuit's module system and serving as a starting point for new modules.",
+        "tags": ["testing", "example", "base", "experimental"],
         "author": "Nuit",
         "commit": "ab79b5dac25789a24cedba9abcc8cbd500bc47cc",
-        "version": "0.0.4"
+        "version": "0.0.4",
+        "verified": true
     }
 ]

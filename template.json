@@ -1,8 +1,11 @@
 [
     {
-        "id": "@nuit-bot/module-welcome",
+        "package": "@nuit-bot/module-moderation",
+        "description": "Ban, kick, and unban users with ease",
+        "tags": ["moderation"],
         "author": "Nuit",
-        "commit": "FULL_COMMIT_SHA",
-        "version": "0.0.1"
+        "commit": "a1b2c3...",
+        "version": "0.0.1",
+        "verified": false
     }
 ]
